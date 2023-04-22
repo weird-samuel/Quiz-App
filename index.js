@@ -15,7 +15,7 @@ function validateForm(event) {
     } else {
         localStorage.setItem("userName", userName);
         localStorage.setItem("userEmail", userEmail);
-        window.open("./main./start.html", "_parent");
+        window.open("./main./index.html", "_parent");
     }
 }
 
