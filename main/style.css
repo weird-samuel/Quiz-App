@@ -32,7 +32,7 @@ body {
     background-color: #eee;
     color: #333;
     font-size: 18px;
-    width: 25em;
+    width: 25rem;
     margin: auto;
     padding: 10px;
     margin: 10px;
@@ -113,4 +113,30 @@ body {
     border: none;
     outline: none;
     display: none;
+}
+
+@media screen and (max-width:500px) {
+    .btn{
+        width: 250px;
+    }
+
+    #question-container{
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width:280px) {
+    #question-container{
+        width: 250px;
+        margin-left: auto;
+        font-size: large;
+    }
+
+    .timer{
+        left: 10%;
+    }
+
+    #progress-tracker{
+        left: 50%;
+    }
 }
