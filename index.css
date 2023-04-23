@@ -10,7 +10,7 @@ body {
 }
 
 .quiz-container {
-    max-width: 600px;
+    max-width: 550px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -46,7 +46,7 @@ label {
 input {
     font-family: cursive;
     display: block;
-    width: 100%;
+    width: 80%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
